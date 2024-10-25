@@ -1,0 +1,11 @@
+*{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h1 {color:white ;display: inline-block; width:33%}
+header {background-color: rgb(82, 6, 73); padding:0,16px; color: white;}
+/* .header {position: sticky;padding: 0px 16px; background: #f1f1f1;} */
+#landing, h2 {color: rgb(77, 40, 2); display:inline-block;}
+/* * {background-color: #ff746c;} */
+.foot {display: inline-block; width: 33%;}
+a:visited{color: white; text-decoration: none;}
+a:hover{color:aqua}
+a:link{color: blue;text-decoration: none;}
+footer{background-color: rgb(31, 20, 20);}
