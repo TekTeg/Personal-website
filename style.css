@@ -1,11 +1,19 @@
 *{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-h1 {color:white ;display: inline-block; width:33%}
-header {background-color: rgb(82, 6, 73); padding:0,16px; color: white;}
+/* h1 {color:white ;display: inline-block; width:auto; padding-inline: 80px;} */
+/* header {background-color: rgb(82, 6, 73);width: 100%; height: auto; position: fixed; margin-top: 0;} */
 /* .header {position: sticky;padding: 0px 16px; background: #f1f1f1;} */
-#landing, h2 {color: rgb(77, 40, 2); display:inline-block;}
+#landing {color: rgb(77, 40, 2); display:flex;}
 /* * {background-color: #ff746c;} */
-.foot {display: inline-block; width: 33%;}
-a:visited{color: white; text-decoration: none;}
-a:hover{color:aqua}
-a:link{color: blue;text-decoration: none;}
-footer{background-color: rgb(31, 20, 20);}
+/* .foot { width:33%;} */
+a:visited{color: rgb(22, 37, 3); text-decoration: none;}
+a:hover{color:#728e9e}
+a:link{color: rgb(21, 21, 46);text-decoration: none;}
+footer{background-color: rgb(233, 221, 221);display: flex;justify-content: right; position: fixed; width:100%; bottom: 0px;}
+.foot{padding-right:50px}
+#header-gap{padding-top: 10cap;}
+/* main{background-color: rgb(2, 44, 56);} */
+body{background-color: rgb(2, 44, 56);}
+p,h3,h2 {color:beige}
+.menu{display:flex; padding: 0; width: 33.33%;}
+#menu{background-color: rgb(233, 221, 221);display:flex  ;width:100%; height: auto; position: fixed; margin-top: 0;}
+h2 {display:flex; }
