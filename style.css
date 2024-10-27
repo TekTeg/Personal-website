@@ -13,10 +13,12 @@ footer{background-color: rgb(233, 221, 221);display: flex;justify-content: right
 /* #header-gap{padding-top: 10cap; padding-left: 100px;} */
 main{padding-top: 100px;}
 #body-index{background-color: rgb(2, 44, 56); margin-bottom:100px}
-#body-about{background-color: rgb(42, 100, 117);margin-bottom:100px}
-#body-port{background-color: rgb(20, 87, 50);margin-bottom:100px}
+#body-about{background-color: #990011;margin-bottom:100px}
+#body-port{background-color: #B85042;margin-bottom:100px}
 p,h3,h2 {color:beige}
 .menu{display:flex; padding: 0; width: 33.33%;}
-#menu{background-color: rgb(233, 221, 221);display:flex;width:100%; height: auto; position: fixed; margin-top: 0;}
+#menu_index{background-color: rgb(233, 221, 221);display:flex;width:100%; height: 75px; position: fixed; margin-top: 0;}
+#menu_about{background-color: #FCF6F5;display:flex;width:100%; height: 75px; position: fixed; margin-top: 0;}
+#menu_port{background-color: #E7E8D1;display:flex;width:100%; height: 75px; position: fixed; margin-top: 0;}
 h2 {display:flex; }
-.menu-item{ border-radius:1cap;text-align: center; width: 200px; padding: 10px;margin: 10px; background-color: rgb(222, 195, 195);"}
+.menu-item{ border-radius:1cap;text-align: center; width: 200px;margin: 25px; background-color: rgb(222, 195, 195);"}
